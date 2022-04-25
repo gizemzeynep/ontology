@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:d68f3765-c0a1-430e-8264-7966e71f7343#"
+     xml:base="urn:webprotege:ontology:d68f3765-c0a1-430e-8264-7966e71f7343"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:d68f3765-c0a1-430e-8264-7966e71f7343"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70ZZXsv5GihpaqsFYBajOx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70ZZXsv5GihpaqsFYBajOx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK1Kzj0nW4Ozvyk52ykx7U"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayşe Klinge</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alp Gökalp</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nesin Yayınevi</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benim Teyzem Bir Başka</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benim Teyzem Bir Başka</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.nesinyayinevi.com/urun/benim-teyzem-bir-baska"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Sgmm7mgkmSk2VUtziUfzD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Sgmm7mgkmSk2VUtziUfzD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j41HEgwHkoJwPFaRWOet1"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anıl Ceren Altunkanat</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanie Joyce</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayesi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Küçük Meşe Palamudu: Doğanın Eşsiz Hikayeleri</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Küçük Meşe Palamudu: Doğanın Eşsiz Hikayeleri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/kitap/kucuk-mese-palamudu-doganin-essiz-hikayeleri-2/cocuk-ve-genclik/okul-oncesi-6-ay-5-yas/masal-hikaye-kitaplari/urunno=0001851768001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qPeKF0n9ghHD4Ja5r4I84 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qPeKF0n9ghHD4Ja5r4I84">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96zB0m4Ds5xGp4Tdr2PYAG"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ege Erim</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yapı Kredi Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kayıp Şeyler Ülkesinde</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kayıp Şeyler Ülkesinde</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://kidega.com/kitap/kayip-seyler-ulkesinde-163576/detay/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aqeOXBAFf3nG6IGPeQveN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aqeOXBAFf3nG6IGPeQveN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDa0p8LMIHhB20aoGT7iFxg"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektif Yazar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yakamoz Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masallar yardımıyla çocuklarımızın hayal güçleri gelişirken, doğruyu ve yanlışı ayırt edebilmeleri de kolaylaşır.</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çilek Kokan Masallar</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çilek Kokan Masallar</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapci.com.tr/kucuk-hanimlara-kucuk-beylere-cilek-kokan-masallar-yakamoz-yayinlari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8j41HEgwHkoJwPFaRWOet1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8j41HEgwHkoJwPFaRWOet1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc"/>
+        <rdfs:label>3-6 years old</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91dRbwx5fE9S43cizqUGAF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91dRbwx5fE9S43cizqUGAF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j41HEgwHkoJwPFaRWOet1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanie Joyce</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hortumuma Çörek Kaçtı!</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hortumuma Çörek Kaçtı!</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/kitap/hortumuma-corek-kacti/cocuk-ve-genclik/okul-cagi-6-10-yas/cocuk-egitim-etkinlik/urunno=0001828803001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96fIlJO6nRG1xVMi9Trdsy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96fIlJO6nRG1xVMi9Trdsy">
+        <rdfs:label>books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96zB0m4Ds5xGp4Tdr2PYAG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96zB0m4Ds5xGp4Tdr2PYAG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc"/>
+        <rdfs:label>6-8 years old</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98jhpn2Gl5P76neFXYKrx0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98jhpn2Gl5P76neFXYKrx0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96zB0m4Ds5xGp4Tdr2PYAG"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derya Dinç</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristin Baird Rattini</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta Kids</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tohumdan Bitkiye</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tohumdan Bitkiye</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://kidega.com/kitap/tohumdan-bitkiye-214724/detay/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrKXHuAj6EeEvPN52pQbhh"/>
+        <rdfs:label>age classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEQeekvhNWpGk6HWhgT2v3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEQeekvhNWpGk6HWhgT2v3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDa0p8LMIHhB20aoGT7iFxg"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektif Yazar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-6 Yaş Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mini Karton Kitaplar.</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renkler ve Şekiller</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renkler ve Şekiller</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapci.com.tr/renkler-ve-sekiller-mini-karton-kitaplar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNrgKHRK1XqQUI0Idlb86c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNrgKHRK1XqQUI0Idlb86c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDa0p8LMIHhB20aoGT7iFxg"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektif Yazar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-6 Yaş Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renkli resimlerle dolu bu bilgilendirici kitap.</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İlk Kelimeler Yavru Ördek Serisi</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İlk Kelimeler Yavru Ördek Serisi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapci.com.tr/ilk-kelimeler-yavru-ordek-serisi-0-6-yas-yayinlari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK1Kzj0nW4Ozvyk52ykx7U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK1Kzj0nW4Ozvyk52ykx7U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc"/>
+        <rdfs:label>8-12 years old</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDa0p8LMIHhB20aoGT7iFxg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDa0p8LMIHhB20aoGT7iFxg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9gp1t9SNbCfWbVdSYOH8Dc"/>
+        <rdfs:label>0-3 year(s) old</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeIFGiToSvwaQ0LxP7aJIp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeIFGiToSvwaQ0LxP7aJIp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96zB0m4Ds5xGp4Tdr2PYAG"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Görkem Kantar Arsoy</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yapı Kredi Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aile ve Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarıldığımız Gün</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarıldığımız Gün</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://kidega.com/kitap/sarildigimiz-gun-086684/detay/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlZYtQaK9x6my0HV2n9V8H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlZYtQaK9x6my0HV2n9V8H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8j41HEgwHkoJwPFaRWOet1"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meltem Aydın</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanie Joyce</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hadi Sarılalım Anneciğim</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hadi Sarılalım Anneciğim</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/kitap/hadi-sarilalim-annecigim/cocuk-ve-genclik/okul-oncesi-6-ay-5-yas/masal-hikaye-kitaplari/urunno=0001897588001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQrPo3zS1OOcNrBBkI55Vg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQrPo3zS1OOcNrBBkI55Vg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK1Kzj0nW4Ozvyk52ykx7U"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elif Deneç</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melisa Kesmez</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nesin Yayınevi</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anneanne Gezegeni</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anneanne Gezegeni</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.nesinyayinevi.com/urun/anneanne-gezegeni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdukGhmeq2NjvuYFnj767Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdukGhmeq2NjvuYFnj767Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK1Kzj0nW4Ozvyk52ykx7U"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatih Tuncay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilgi Yayınevi</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Hikayeleri</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sihirli Şakayık - Selig</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sihirli Şakayık - Selig</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.bilgiyayinevi.com.tr/sihirli-sakayik-selig"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrKXHuAj6EeEvPN52pQbhh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrKXHuAj6EeEvPN52pQbhh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96fIlJO6nRG1xVMi9Trdsy"/>
+        <rdfs:label>children&apos;s books</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
